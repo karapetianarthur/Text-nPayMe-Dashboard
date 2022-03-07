@@ -50,15 +50,6 @@ const Signup = ({ handleClose }) => {
     const { showPassword, showConfirmPassword, shouldConfirmNumber, shouldConfirmCode, phoneNumber, phoneNumberDisabled, uid } = mainState;
 
     const onSubmit = data => {
-        console.log(data, 'data');
-
-        // createUserWithEmailAndPassword(auth, data.email, data.password)
-        //     .then((result) => {
-        //         console.log(result)
-        //     }).catch((err) => {
-        //         console.log(err, 'err')
-        //     })
-
         const bodyData = new FormData();
 
         bodyData.append("password", data.password);
@@ -93,6 +84,7 @@ const Signup = ({ handleClose }) => {
                     type: 'error'
                 });
             });
+
     };
 
     const handleGenerateReCAPTCHA = () => {
