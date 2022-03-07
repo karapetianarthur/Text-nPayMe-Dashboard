@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.Signup-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 390px;
+  width: 390px;
+  padding: 45px;
+
+  box-sizing: border-box;
+
+  background: #FFFFFF;
+  box-shadow: 1px 1px 40px rgba(26, 26, 26, 0.1);
+  border-radius: 24px;
+
+
+
+  .Mui-focused {
+    color: #FFAC30 !important;
+  }
+
+  .MuiInput-root {
+    color: rgba(0, 0, 0, 0.87) !important;
+  }
+
+  .MuiInput-root:after {
+    border-bottom: 2px solid #FFAC30 !important;
+  }
+
+  .Mui-error:after {
+    border-bottom-color: #d32f2f !important;
+  }
+
+  & > div {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .mobile-phone-number {
+    margin: 0 !important;
+  }
+
+  .change-phone-number-btn {
+    text-transform: none !important;
+    margin: 0;
+    justify-content: start;
+    padding: 6px 0;
+  }
+
+  .form-btn {
+    width: 300px;
+    height: 42px;
+    background: #FFAC30;
+    color: black;
+    border-radius: 8px;
+    box-shadow: none;
+
+    margin-top: 20px;
+
+    &:hover {
+      background: #f19405;
+    }
+  }
+
+  .form-btn-confirm {
+    width: 300px;
+    height: 42px;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: none;
+    margin: 20px 0 0 0;
+    border: 1px solid rgba(26, 26, 26, 0.42);
+
+    &:hover {
+      background: #a6a6a6;
+    }
+  }
+
+  #standard-head-helper-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+
+    display: flex;
+    letter-spacing: 0.15px;
+
+    color: rgba(26, 26, 26, 0.9);
+  }
+
+  .send-again {
+    border: none;
+    background: no-repeat;
+    cursor: pointer;
+  }
+}
