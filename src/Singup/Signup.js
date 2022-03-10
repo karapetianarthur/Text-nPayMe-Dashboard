@@ -128,7 +128,7 @@ const Signup = ({ handleClose }) => {
                     ...mainState,
                     shouldConfirmCode: false,
                     shouldConfirmNumber: false,
-                    phoneNumberDisabled: true,
+                    phoneNumberDisabled: false,
                 })
 
                 setNotif({
