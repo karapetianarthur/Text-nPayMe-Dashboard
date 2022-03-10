@@ -272,6 +272,7 @@ const Signup = ({ handleClose }) => {
                         error={!!error}
                         helperText={error ? error.message : null}
                         type={showPassword ? 'text' : 'password'}
+                        placeholder="Password"
                         endAdornment={
                             <InputAdornment position="end">
                                 <IconButton
@@ -306,6 +307,7 @@ const Signup = ({ handleClose }) => {
                         error={!!error}
                         helperText={error ? error.message : null}
                         type={showConfirmPassword ? 'text' : 'password'}
+                        placeholder="Confirm password"
                         endAdornment={
                             <InputAdornment position="end">
                                 <IconButton
