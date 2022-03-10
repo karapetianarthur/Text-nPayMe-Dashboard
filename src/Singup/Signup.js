@@ -285,7 +285,7 @@ const Signup = ({ handleClose }) => {
                                     }}
                                     // onMouseDown={handleMouseDownPassword}
                                 >
-                                    {showPassword? <VisibilityOff /> : <Visibility />}
+                                    {!showPassword? <VisibilityOff /> : <Visibility />}
                                 </IconButton>
                             </InputAdornment>
                         }
@@ -320,7 +320,7 @@ const Signup = ({ handleClose }) => {
                                     }}
                                     // onMouseDown={handleMouseDownPassword}
                                 >
-                                    {showConfirmPassword? <VisibilityOff /> : <Visibility />}
+                                    {!showConfirmPassword? <VisibilityOff /> : <Visibility />}
                                 </IconButton>
                             </InputAdornment>
                         }
